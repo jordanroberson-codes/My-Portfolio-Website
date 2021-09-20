@@ -10,6 +10,7 @@ body {
   max-width: 90%;
   margin: 20px auto;
   padding: 10px;
+  width: 100vw;
 }
 
 footer {
@@ -229,9 +230,10 @@ footer {
 
 #pictureJordan {
   margin-top: 20px;
-  width: 60%;
+  width: 100vw;
   border-radius: 20px;
   border: 10px solid #444b54;
+  max-width: 70%;
 }
 
 #show-fact {
