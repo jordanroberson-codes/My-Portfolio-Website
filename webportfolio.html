@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jordan Roberson</title>
+    <!--Bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!--AnimateLink-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Rock+Salt&family=Six+Caps&display=swap" rel="stylesheet">
+
+    <!--Quote Font-->
+    <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css" />
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/0d8577ba8e.js" crossorigin="anonymous"></script>
+  </head>
+  <header>
+    <!-- Nav Bar --------------------------->
+    <nav 
+    id="navBarMain"
+      class="navbar fixed-top navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <img 
+        class="imageLogo"
+        src="src/images/code.png" 
+        alt="code with brackets"
+        width="30" height="24">
+        <a class="navbar-brand"><span class = navBarTitle>Jordan Roberson</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item home">
+              <a class="nav-link active homeLink" aria-current="page" href="#topHome">Home</a>
+            </li>
+            <li class="nav-item about">
+              <a class="nav-link aboutLink" href="#aboutMeHeader">About</a>
+            </li>
+            <li class="nav-item blog">
+              <a class="nav-link blogLink" href="#">Blog</a>
+            </li>
+            <li class="nav-item contact">
+              <a class="nav-link contactLink" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropDownLink" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">WeatherApp</a></li>
+                <li><a class="dropdown-item" href="#">Portfolio Website</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">More</a></li>
+                
+              </ul>
+            </li>
+           <li class="nav-item gitHubIcon">
+              <a class="nav-link gitLink" href="https://github.com/jordanroberson-codes" rel="stylesheet"
+              target="_blank"><i class="fab fa-github" ></i></a>
+            </li>
+            <li class="nav-item linkedInIcon">
+              <a class="nav-link linkedInLink" href="https://www.linkedin.com/in/jordanrobersonnp/" rel="stylesheet"
+              target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  </header>
+    <!--WELCOME----------------------------->
+    <body>
+      <div 
+      id ="topHome"
+      class="greeting">
+        <h1>
+          <p class="typewrite" data-period="2000" data-type='[ "Hi, Im Jordan.", "I am an Aspiring Full Stack Developer.", "I Love Coding.", "Check out my Projects Section", "Thanks for visiting!" ]'>
+    <span class="wrap"></span>
+  </p>
+        </h1>
+      </div>
+      <!--ABOUT ME SECTION-->
+      <div class="aboutMe">
+        <section>
+          <h2 
+          id = "aboutMeHeader"
+          >About Me</h2>
+          <br>
+          <br>
+
+      <div class="container">
+        <div class="row align-items-start">
+          <div 
+          id ="aboutMe"
+          class="col">
+          <p class ="aboutMeText">
+            My name is Jordan, and i'm an aspiring fullstack developer. I am
+            actually an Adult Geriatric Nurse Practitioner who decided that the
+            tech industry was something I was passionate about
+            <em>plus they could use some more women </em>😜. I am currently
+            enrolled in SheCodes Pro Front End Development course and Treehouse
+            Tech Degree for fullstack development. My goal is to eventually work for a startup tech company as a fullstack developer and work in freelance as a front end developer as well! </p>
+            <section class="funFacts"><span class = "funFactsTitle">
+              Here's some fun facts about me!</span>
+<br>
+<br>
+              <p id="fun-fact">Click the button below to learn some fun facts about me!</p>
+              <button id="show-fact">Show a new fact</button>
+
+            </section>
+          </div>
+          
+          <div class="col">
+            <img 
+            id = "pictureJordan"
+            src="src/images/me.JPG" class="rounded float-end" alt="picture of Jordan">
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--END OF ABOUT ME SECTION-->
+    <!--PROJECTS SECTION-->
+    <div class = "projects">
+      <section class = "projectSection">
+      <h2 class="projectHeader">Projects</h2>
+
+
+<!--TEST-->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="src/images/weatherAppPicture.png" class="card-img-top" alt="picture of weather app">
+      <div class="card-body">
+        <h5 class="card-title">Weather App</h5>
+        <p class="card-text">This is a Weather App using real time information to predict weather with current location and searchable cities worldwide.</p>
+      </div>
+      <button>GitHub Code</button>
+      <button>Live Preview</button>
+      <div class="card-footer">
+        <small class="text-muted">HTML</small>
+        <small class="text-muted">CSS</small>
+        <small class="text-muted">BootStrap</small>
+        <small class="text-muted">Javascript</small>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--TEST-->
+
+
+      </section>
+  </div>
+  <!--BOOTSTRAP JAVASCRIPT LINK-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <!--JS Link-->
+  <script src="src/index.js"></script>
+  </body>
+  <footer>© 2021 Coded by Jordan Roberson</footer>
+</html>
